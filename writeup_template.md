@@ -98,10 +98,15 @@ My final model results were:
 
 If a well known architecture was chosen:
 * What architecture was chosen?
+
 LeNet architecture was chosen for the project.
+
 * Why did you believe it would be relevant to the traffic sign application?
+
 As part of the LeNet lab to classify the characters and numbers LeNet architecture performed well with a prdiction accuracy of 98% on grayscale images. Hence the LeNet architecture was chosen for traffic sign classifier application. 
+
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+
 The model's accuracy was 99.6% on the training dataset and 93.2% and 92.2% on the validation and test dataset. This proves that the LeNet model is suitable for the traffic sign calssification / prediction.
 
 ###Test a Model on New Images
@@ -112,8 +117,6 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
-
-The first image might be difficult to classify because ...
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
