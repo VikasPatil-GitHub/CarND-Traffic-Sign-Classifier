@@ -38,7 +38,7 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-#### 2. Exploratory visualization of the dataset.
+#### Exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing number of training samples for each traffic sign class.
 
@@ -98,7 +98,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-#### 2. Model's predictions on new traffic signs and comparing the results to prediction on the test set
+#### 1. Model's predictions on new traffic signs and comparing the results to prediction on the test set
 
 Here are the results of the prediction:
 
@@ -113,7 +113,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%.
 
-#### 3. Softmax probabilities for each prediction
+#### 2. Softmax probabilities for each prediction
 
 I used a different strategy here for testing the model on the images downloaded from the web. Instead of using more than 5 images and getting the top five predictions, I used only 5 images to check the robustness of model. The model was able to predict 4 out of the 5 signs giving a accuracy of 80%. This accuracy is achieved by using only two data preprocessing techniques viz. grayscale conversion and normalization. I believe the acuuracy can be further increased by using augmentating the dataset and adding more samples for the traffic sign classes with fewer samples. 
 
